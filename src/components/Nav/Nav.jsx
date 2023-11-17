@@ -1,6 +1,6 @@
 import { useState } from "react"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faHouse, faUser, faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons"
+import {faHouse, faUser} from "@fortawesome/free-solid-svg-icons"
 
 export default function Nav() {
   
@@ -14,8 +14,11 @@ export default function Nav() {
          <a className="m-1 font-bold py-2 px-4 bg-[rgba(64,180,202,255)] hover:bg-blue-400 text-[rgba(195,219,67,255)] border border-[rgba(195,219,67,255)] rounded-full" href="/"><FontAwesomeIcon icon={faHouse} flip="horizontal" size="sm" /></a>
          </div>
          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/2560px-Rick_and_Morty.svg.png" className="w-65 h-20 object-cover" alt="Rick And Morty" />
-         <div>
+         <div className="flex flex-row">
          <a className="m-1 font-bold py-2 px-4 bg-[rgba(64,180,202,255)] hover:bg-blue-400 text-[rgba(195,219,67,255)] border border-[rgba(195,219,67,255)] rounded-full" href="/about"><FontAwesomeIcon icon={faUser} flip="horizontal" size="sm" /></a>
+         <a className="block sm:block hidden" target="_blank" href="https://github.com/lautaromateol/spa-rick-and-morty">
+         <img className="mt-1 w-10 h-10" src="https://www.svgrepo.com/show/516640/github.svg" alt="Github logo" />
+         </a>
          </div>
          </div>
       </nav>

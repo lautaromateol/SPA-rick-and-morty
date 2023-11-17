@@ -4,7 +4,7 @@ import {faSkull, faCross, faMars, faVenus, faMarsAndVenus, faGlobe, faQuestion} 
 
 function Card({id, name, gender, species, status, origin, image}) {
 
-   //green [rgba(195,219,67,255)] 
+   // green [rgba(195,219,67,255)] 
    // blue [rgba(64,180,202,255)] 
    
    return (
