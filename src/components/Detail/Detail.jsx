@@ -38,8 +38,8 @@ const Detail = () => {
                 <hr className="w-[90%] mx-auto my-5" />
                 {character.status === "Dead" ? <p className="text-left text-xl ml-4 text-red-500"><FontAwesomeIcon icon={faSkull} /> {character.status}</p> : <p className="text-left text-xl ml-4 my-1 text-[rgba(195,219,67,255)]"><FontAwesomeIcon icon={faCross} /> {character.status}</p>}
                 {character.gender === "Male" ? <p className="text-left text-xl ml-4 text-blue-600"><FontAwesomeIcon icon={faMars} /> {character.gender}</p> : <p className="text-left text-xl ml-4 my-1 text-red-300"><FontAwesomeIcon icon={faVenus} /> {character.gender}</p>}
-                <p className="text-left text-xl ml-4 my-1 text-black"><FontAwesomeIcon icon={faGlobe} /> {character.origin?.name}</p>
-                <p className="text-left text-xl ml-4 my-1 text-black"><FontAwesomeIcon icon={faLocationDot} /> {character.location?.name}</p>
+                <p className="text-left text-xl ml-4 my-1 text-black">Origin <FontAwesomeIcon icon={faGlobe} /> {character.origin?.name}</p>
+                <p className="text-left text-xl ml-4 my-1 text-black">Location <FontAwesomeIcon icon={faLocationDot} /> {character.location?.name}</p>
             </div>
             <div className="w-full h-full rounded-md shadow-lg">
             <p className="font-bold text-xl ml-2 my-1">Episodes</p>
