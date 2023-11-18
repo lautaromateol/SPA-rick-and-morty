@@ -38,7 +38,7 @@ const Paginate = () => {
             <div className='grid grid-cols-4 sm:grid hidden'>
                 <input className='rounded-lg outline-none border border-2 border-solid border-gray-400 p-1 mx-2' placeholder='Find by name' type="text" value={name} onChange={(e) => setName(e.target.value)} />
                 <select className='rounded-lg outline-none border border-2 border-solid border-gray-400 p-1 mx-2' onClick={(e) => setGender(e.target.value)}>
-                    <option value="">Gender</option>
+                    <option value="">No Gender</option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                     <option value="Genderless">Genderless</option>
@@ -46,7 +46,7 @@ const Paginate = () => {
                 </select>
                 <input className='rounded-lg outline-none border border-2 border-solid border-gray-400 p-1 mx-2' placeholder='Find by species' value={species} onChange={(e) => setSpecies(e.target.value)} />
                 <select className='rounded-lg outline-none border border-2 border-solid border-gray-400 p-1 mx-2' onClick={(e) => setStatus(e.target.value)}>
-                    <option value="">Status</option>
+                    <option value="">No Status</option>
                     <option value="Alive">Alive</option>
                     <option value="Dead">Dead</option>
                     <option value="Unknown">Unknown</option>
