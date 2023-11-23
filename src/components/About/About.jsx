@@ -8,7 +8,7 @@ const About = () => {
                 <h1 className='text-center text-3xl'>By Lautaro Mateo Leguizamon</h1>
                 <div className='flex flex-col my-5'>
                 <a target='_blank' href="https://www.linkedin.com/in/lautaro-mateo-leguizamon-35b902279/" className='underline my-1'>Connect with me at LinkedIn</a>
-                <a href="" className='underline my-1'>Visit my portfolio</a>
+                {/* <a href="" className='underline my-1'>Visit my portfolio</a> */}
                 </div>
             </div>
         </div>
